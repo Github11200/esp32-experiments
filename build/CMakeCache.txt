@@ -360,13 +360,10 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 Mbed TLS_SOURCE_DIR:STATIC=/home/arch/.espressif/v6.0/esp-idf/components/mbedtls/mbedtls
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/home/arch/.espressif/tools/python/v6.0/venv/bin/python3
+PYTHON:UNINITIALIZED=/home/arch/.espressif/python_env/idf6.0_py3.13_env/bin/python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
-
-//No help, variable specified on the command line.
-SDKCONFIG:UNINITIALIZED=/home/arch/code/esp32/sdkconfig
 
 //Value Computed by CMake
 TF-PSA-Crypto_BINARY_DIR:STATIC=/home/arch/code/esp32/build/esp-idf/mbedtls/mbedtls/tf-psa-crypto
@@ -638,7 +635,7 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.53.0()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/arch/.espressif/tools/python/v6.0/venv/bin/python3][found components: Interpreter ][v3.13.11()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/arch/.espressif/python_env/idf6.0_py3.13_env/bin/python][found components: Interpreter ][v3.13.11()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -649,10 +646,10 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/home/arch/.espressif/tools/python/v6.0/venv/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/home/arch/.espressif/python_env/idf6.0_py3.13_env/bin/python
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;11;32;64;;;abi3;/home/arch/miniconda3/lib/python3.13;/home/arch/.espressif/tools/python/v6.0/venv/lib/python3.13;/home/arch/.espressif/tools/python/v6.0/venv/lib/python3.13/site-packages;/home/arch/.espressif/tools/python/v6.0/venv/lib/python3.13/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=6bf1864530ca64b6aad68dfbc1e78f55
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;11;32;64;;;abi3;/home/arch/miniconda3/lib/python3.13;/home/arch/.espressif/python_env/idf6.0_py3.13_env/lib/python3.13;/home/arch/.espressif/python_env/idf6.0_py3.13_env/lib/python3.13/site-packages;/home/arch/.espressif/python_env/idf6.0_py3.13_env/lib/python3.13/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=b3ad547bde3c36e79ea9963c27102af9
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 
